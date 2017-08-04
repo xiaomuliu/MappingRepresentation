@@ -38,7 +38,6 @@ BoundedOverFullGrd <- over(city.df_full, city.shp)
 isInCity <- !is.na(BoundedOverFullGrd$OBJECTID)
 RegGrd <- RegGrd.full[isInCity,]
 
-day <- as.Date("2013-01-01")
 month <- 1
 year <- 2013
 
@@ -52,19 +51,6 @@ par(mar=c(2,1,1,1),xaxs="i",yaxs="i",cex.axis=0.8,cex.lab=0.8,pty="s")
 plot(city.shp, border="black")
 points(CrimeSubset.sp, pch=16, cex=.75,col="red")
 box(which = "plot", lty = "solid")
-
-# Ellipse plot
-# theta <- seq(0, 2 * pi, length=100)
-# alpha <- pi/3
-# x0 <- X_range/2
-# y0 <- Y_range/2
-# a <- 10000
-# b <- 20000
-# x <- x0 + a * cos(theta) * cos(alpha) - b * sin(theta) * sin(alpha)
-# y <- y0 + a * cos(theta) * sin(alpha) + b * sin(theta) * cos(alpha)
-# plot(city.shp, border="black")
-# points(CrimeSubset.sp, pch=16, cex=.75,col="red")
-# lines(x, y, type = "l")
 
 par(mar=c(2,1,1,1),xaxs="i",yaxs="i",cex.axis=0.8,cex.lab=0.8,pty="s")
 plot(city.shp, border="black")
