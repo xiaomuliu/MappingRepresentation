@@ -13,8 +13,5 @@ Historical Burglary Incidents (01/2013)
 ![alt text](https://github.com/xiaomuliu/MappingRepresentation/blob/master/KDE.jpeg)
 
 Different Geospatial attributes overlaid on Google Maps
-<<<<<<< HEAD
 ![alt text](https://github.com/xiaomuliu/MappingRepresentation/blob/master/SpatialLayers.jpeg)
-=======
-![alt text](https://github.com/xiaomuliu/MappingRepresentation/blob/master/SpatialLayers.jpeg)
->>>>>>> 23b255740bad40a2753a0716291cf2b2c379c8a3
+
